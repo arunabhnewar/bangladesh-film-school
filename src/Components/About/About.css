@@ -1,0 +1,19 @@
+.about-container {
+    background-color: #84817a;
+    height: 100vh;
+    padding: 100px 0px;
+    width: 100%;
+}
+.about-details {
+    padding-bottom: 90px;
+}
+.about-title {
+    text-align: left;
+    margin-left: 15px;
+    color: #f39c12;
+}
+.about-text {
+    text-align: left;
+    margin-left: 15px;
+}
+

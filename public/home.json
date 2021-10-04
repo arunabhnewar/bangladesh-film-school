@@ -1,0 +1,30 @@
+[
+    {
+        "key": "direction",
+        "name": "Film Direction",
+        "courseDirector": "Christopher Nolan",
+        "fee": 3500,
+        "img": "https://services-img.netlify.app/direction.jpg"
+    },
+    {
+        "key": "cinematography",
+        "name": "Cinematography",
+        "courseDirector": "Roger Deakins",
+        "fee": 3500,
+        "img": "https://services-img.netlify.app/cinematography.jpg"
+    },
+    {
+        "key": "acting",
+        "name": "Acting",
+        "courseDirector": "Leonardo De Caprio",
+        "fee": 3000,
+        "img": "https://services-img.netlify.app/acting.jpg"
+    },
+    {
+        "key": "editing",
+        "name": "Editing",
+        "courseDirector": "Lee Smith",
+        "fee": 3000,
+        "img": "https://services-img.netlify.app/editing.jpg"
+    }
+]

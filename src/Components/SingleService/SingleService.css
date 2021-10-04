@@ -1,0 +1,12 @@
+.single-service-container {
+    border: 2px solid lightgrey;
+    padding: 20px;
+    margin: 25px;
+    background-color: #84817a;
+}
+.service-details {
+    text-align: left;
+}
+.details-text {
+    color: #f39c12;
+}
