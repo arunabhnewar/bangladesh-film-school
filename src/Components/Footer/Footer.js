@@ -69,4 +69,4 @@ const Footer = () => {
     );
 };
 
-export default Footer; <h1>This is footer page</h1>
+export default Footer;
