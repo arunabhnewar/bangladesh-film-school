@@ -14,7 +14,7 @@ const Features = () => {
             <h1 className="mt-5 features-title text-muted">Best Features</h1>
             <div className="row">
                 {
-                    features.map(feature =>
+                    features?.map(feature =>
                         <div className="col-md-3 my-5" key={feature.key}>
                             <div className="features">
                                 <div className="feature-img">
@@ -25,9 +25,7 @@ const Features = () => {
                                     <h5 className="text-muted">Course Director: <span className="feature-detail">{feature.courseDirector}</span> </h5>
                                     <h5 className="text-muted">Course Fee: $<span className="feature-detail">{feature.fee}</span> </h5>
 
-                                    {/* <Link to={`/details/${team.idTeam}`}>
-                                        <button className="btn-search">Details</button>
-                                    </Link> */}
+                                    <button className="enroll-btn">Enroll Now</button>
                                 </div>
                             </div>
                         </div>

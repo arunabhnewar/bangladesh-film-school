@@ -16,7 +16,7 @@ const Admission = () => {
                             <br />
                             <input type="text" placeholder="Last Name" />
                             <br />
-                            <input type="text" placeholder="Date of Birth" />
+                            <input type="text" placeholder="Age" />
                             <br />
                             <input type="text" placeholder="Email Address" />
                             <br />
@@ -33,7 +33,6 @@ const Admission = () => {
                             The admission process consists of the nationally administered Joint Entrance Test (JET), and subsequent rounds of Orientation / Interview. The students are selected on the basis of their JET scores, and performance in the orientation and interviews.
                             On the basis of performance in JET, the list of candidates shortlisted for the next level of selection will be made available on the website of the Institute. The institute will send interview letters to the shortlisted candidates directly.
                             The criteria for short listing may vary for different courses. Please read BFS prospectus carefully for further information
-
                         </p>
                     </div>
                 </div>

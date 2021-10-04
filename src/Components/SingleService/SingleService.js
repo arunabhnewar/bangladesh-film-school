@@ -9,7 +9,7 @@ const SingleService = (props) => {
             <div className="single-service-container mt-5">
                 <div className="row">
                     <div className="service-img col-md-5">
-                        <img className="w-75" src={img} alt="" />
+                        <img className="w-100" src={img} alt="" />
                     </div>
                     <div className="service-details col-md-7">
                         <h2><span className="details-text">{name}</span></h2>
@@ -18,6 +18,7 @@ const SingleService = (props) => {
                         <h5>Course Fee: $<span>{fee}</span></h5>
                         <h5>Course Duration: <span>{duration}</span></h5>
                         <h5>Describe: <span>{description}</span></h5>
+                        <button className="enroll-btn">Enroll Now</button>
                     </div>
                 </div>
             </div>
