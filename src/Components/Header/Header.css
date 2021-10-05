@@ -21,6 +21,8 @@
     border-radius: 5px;
     transition: 0.5s linear;
     text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
 }
 .regular-btn:hover {
     background-color: #fff;

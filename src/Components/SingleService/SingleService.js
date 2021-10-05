@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './SingleService.css';
 
 const SingleService = (props) => {
@@ -12,13 +13,14 @@ const SingleService = (props) => {
                         <img className="w-100" src={img} alt="" />
                     </div>
                     <div className="service-details col-md-7">
-                        <h2><span className="details-text">{name}</span></h2>
-                        <h5>Course Director: <span>{courseDirector}</span></h5>
-                        <h5>Email: <span>{email}</span></h5>
-                        <h5>Course Fee: $<span>{fee}</span></h5>
-                        <h5>Course Duration: <span>{duration}</span></h5>
-                        <h5>Describe: <span>{description}</span></h5>
-                        <button className="enroll-btn">Enroll Now</button>
+                        <h2><span className="name-text">{name}</span></h2>
+                        <h5 className="detail-text">Course Director: <span>{courseDirector}</span></h5>
+                        <h5 className="detail-text">Email: <span>{email}</span></h5>
+                        <h5 className="detail-text">Course Fee: $<span>{fee}</span></h5>
+                        <h5 className="detail-text">Course Duration: <span>{duration}</span></h5>
+                        <h5 className="detail-text mb-4">Describe: <span>{description}</span></h5>
+
+                        <NavLink to="/admission" className="enroll-btn">Enroll Now</NavLink>
                     </div>
                 </div>
             </div>

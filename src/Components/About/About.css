@@ -1,19 +1,25 @@
 .about-container {
     background-color: #40407a;
-    height: 100vh;
-    padding: 100px 0px;
+    height: auto;
     width: 100%;
 }
-.about-details {
-    padding-bottom: 90px;
+.about-img{
+    border-left: 2px solid #f39c12;
+}
+.achievement-img {
+    border-right: 2px solid #f39c12;
 }
 .about-title {
-    text-align: left;
+    text-align: justify;
     margin-left: 15px;
     color: #f39c12;
 }
+.achievement-title {
+    color: #f39c12;
+    text-align: right;
+}
 .about-text {
-    text-align: left;
+    text-align: justify;
     margin-left: 15px;
     color: #bdc3c7;
 }

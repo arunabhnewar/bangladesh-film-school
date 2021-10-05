@@ -2,7 +2,7 @@
     {
         "key": "direction",
         "name": "Film Direction",
-        "courseDirector": "Christopher Nolan",
+        "courseDirector": "Christopher",
         "fee": 3500,
         "img": "https://services-img.netlify.app/direction.jpg"
     },
@@ -16,7 +16,7 @@
     {
         "key": "acting",
         "name": "Acting",
-        "courseDirector": "Leonardo De Caprio",
+        "courseDirector": "Leonardo Caprio",
         "fee": 3000,
         "img": "https://services-img.netlify.app/acting.jpg"
     },

@@ -30,6 +30,7 @@ const Footer = () => {
                                     Dhaka Division, Bangladesh
                                 </p>
                                 <h6>Phone: +3-9-500-777-11-00</h6>
+                                <h6>Email: bangladeshfilmschool@mail.com</h6>
                             </div>
                         </div>
 
@@ -61,8 +62,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p className="mt-5 mb-0">
-                    <small>Bangladesh Film School @ , All rights reserved</small>
+                <hr />
+                <p className="mt-2 mb-0 pb-0">
+                    <small>Bangladesh Film School @. All rights reserved</small>
                 </p>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import './Features.css';
 
 const Features = () => {
@@ -16,16 +17,17 @@ const Features = () => {
                 {
                     features?.map(feature =>
                         <div className="col-md-3 my-5" key={feature.key}>
-                            <div className="features">
+                            <div className="card features">
                                 <div className="feature-img">
                                     <img className="w-100" src={feature.img} alt="" />
                                 </div>
-                                <div className="info-area">
-                                    <h3 className="feature-name">{feature.name}</h3>
-                                    <h5 className="text-muted">Course Director: <span className="feature-detail">{feature.courseDirector}</span> </h5>
-                                    <h5 className="text-muted">Course Fee: $<span className="feature-detail">{feature.fee}</span> </h5>
+                                <div className="info-area card-body">
+                                    <h4 className="feature-name">{feature.name}</h4>
+                                    <p className="text-muted">Course Director: <span className="feature-detail">{feature.courseDirector}</span> </p>
+                                    <p className="text-muted mb-5">Course Fee: $<span className="feature-detail">{feature.fee}</span> </p>
 
-                                    <button className="enroll-btn">Enroll Now</button>
+                                    <NavLink to="/services" className="enroll-btn">Read More</NavLink>
+                                    <NavLink to="/admission" className="enroll-btn">Enroll Now</NavLink>
                                 </div>
                             </div>
                         </div>

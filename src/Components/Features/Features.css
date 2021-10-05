@@ -5,9 +5,13 @@
     margin: 20px 0 150px;
     border: 1px solid gray;
     padding: 10px;
-    border-radius: 4px;
-    height: 420px;
+    border-radius: 5px;
+    height: 450px;
     cursor: pointer;
+    transition: 0.5s ease;
+}
+.features:hover {
+    box-shadow: 0px 5px 5px 5px gray;
 }
 .info-area {
     margin-top: 15px;
@@ -22,12 +26,15 @@
 .enroll-btn {
     border: 0;
     outline: 0;
-    margin-top: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
     margin-bottom: 15px;
+    margin-right: 15px;
     background-color: #f39c12;
     color: #fff;
-    width: 100px;
-    height: 35px;
+    width: 120px;
+    height: 45px;
     font-weight: 600;
     transition: 0.6s linear;
 }
