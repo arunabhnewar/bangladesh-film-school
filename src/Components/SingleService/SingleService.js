@@ -20,7 +20,7 @@ const SingleService = (props) => {
                         <h5 className="detail-text">Course Duration: <span>{duration}</span></h5>
                         <h5 className="detail-text mb-4">Describe: <span>{description}</span></h5>
 
-                        <NavLink to="/admission" className="enroll-btn">Enroll Now</NavLink>
+                        <NavLink to="/admission" className="btn btn-warning">Enroll Now</NavLink>
                     </div>
                 </div>
             </div>

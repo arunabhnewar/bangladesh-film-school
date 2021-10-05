@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Features.css';
 
 const Features = () => {
@@ -26,8 +26,9 @@ const Features = () => {
                                     <p className="text-muted">Course Director: <span className="feature-detail">{feature.courseDirector}</span> </p>
                                     <p className="text-muted mb-4">Course Fee: $<span className="feature-detail">{feature.fee}</span> </p>
 
-                                    <NavLink to="/services" className="enroll-btn">Read More</NavLink>
-                                    <NavLink to="/admission" className="enroll-btn">Enroll Now</NavLink>
+                                    <Link to="/services" className="btn btn-success me-2 mb-2">Read More</Link>
+
+                                    <Link to="/admission" className="btn btn-warning mb-2">Enroll Now</Link>
                                 </div>
                             </div>
                         </div>
