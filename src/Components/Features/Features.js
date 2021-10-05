@@ -11,12 +11,12 @@ const Features = () => {
     }, [])
     console.log(features);
     return (
-        <div className="features-container container">
+        <div className="container">
             <h1 className="mt-5 features-title text-muted">Best Features</h1>
             <div className="row">
                 {
                     features?.map(feature =>
-                        <div className="col-md-3 my-5" key={feature.key}>
+                        <div className="col-md-3 col-lg-3 my-5" key={feature.key}>
                             <div className="card features w-100 h-75">
                                 <div className="feature-img">
                                     <img className="w-100" src={feature.img} alt="" />
