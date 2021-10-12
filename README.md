@@ -9,3 +9,5 @@
 - All information about Bangladesh Film School.
 
 - Online application form for admission in Bangladesh Film School.
+
+## Not Responsive
