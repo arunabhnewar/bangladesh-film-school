@@ -64,7 +64,7 @@ const Footer = () => {
                 </div>
                 <hr />
                 <p className="mt-2 mb-0 pb-0">
-                    <small>Bangladesh Film School @. All rights reserved</small>
+                    <small>newardevil.com @All rights reserved</small>
                 </p>
             </div>
         </div>
